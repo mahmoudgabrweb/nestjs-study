@@ -22,7 +22,7 @@ First we will clean our code and remove all `AppController, AppModule, AppServic
         @Module({
             controllers: [MessagesController]
         })
-        ```
+        ``` 
     - if tou need to create a controller in specific file you can use `nest generate controller folderName/controllerName --flat`
 
 ### Routing
