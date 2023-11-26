@@ -18,11 +18,11 @@ First we will clean our code and remove all `AppController, AppModule, AppServic
 - Generate our module using `nest generate module messages`, then update the `main.ts` file with `MessagesModule` instead of `AppModule`
 - Generate controller using `nest generate controller messages` this will create the controller file and the testing file for `controller` then update the `module` file 
     - the update of the module is 
-    ```
-    @Module({
-        controllers: [MessagesController]
-    })
-    ```
+        ```
+        @Module({
+            controllers: [MessagesController]
+        })
+        ```
     - if tou need to create a controller in specific file you can use `nest generate controller folderName/controllerName --flat`
 
 ### Routing
